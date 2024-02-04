@@ -4,7 +4,7 @@
 
 // primitive datatypes
 
-/* Number(76), BigInt(8769789684876876486874), String("this is a string"), Boolean(True/False), Null(emty value/null), Symbol(used to uniquely identify the data types), Undefined(Not declared) */
+/* Number(76), BigInt(8769789684876876486874), String("this is a string"), Boolean(True/False), Null(empty value/null), Symbol(used to uniquely identify the data types), Undefined(Not declared) */
 
 //object
 
@@ -12,6 +12,7 @@
 // Arrays, objects, functions
 
 let subjects =["Hindi","English","Computer"] //Array
+
 let myobj ={                                // Objects {}
     name:"nitish kumar",
     age: 19,

@@ -6,7 +6,7 @@
 // console.log(typeof valueinNumber) //number
 
 // let anotherScore ="333abh"
-// console.log(typeof anotherScore + " another scope "+anotherScore) //string
+// console.log(typeof anotherScore + " another score "+anotherScore) //string
 
 // let anotherScoreNumber = Number(anotherScore)
 // console.log(typeof anotherScoreNumber) //number
