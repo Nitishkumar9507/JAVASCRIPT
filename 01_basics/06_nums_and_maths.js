@@ -18,16 +18,20 @@ let num3 = 10000000
 // console.log(Math.ceil(9.4));//10
 // console.log(Math.floor(9.6));//9
 
-console.log(Math.random()); //return value bw 0.00-1.00 -->0.9552181440407199
-console.log((Math.random()*10) +1 );//return value bw 1-10 --> 5.815707233977308
-console.log(Math.floor((Math.random()*10) +1 ));//return value bw 0 - 1
+// console.log(Math.random()); //return value bw 0.00-1.00 -->0.9552181440407199
+// console.log((Math.random()*10) +1 );//return value bw 1-10 --> 5.815707233977308
+// console.log(Math.floor((Math.random()*10) +1 ));//return value bw 0 - 1
 
 // another way to generate random no is 
 const min=10;
 const max=20;
 
 console.log(Math.floor(Math.random() * (max - min +1 )) +min); // no b/w 10 - 20
+// console.log((max - min +1 ) + min);// 11 - 21
 
+const som =((max - min +1 ) + min)  ;
+console.log(som);
+console.log(Math.floor(Math.random() * som));
 
 // E: 2.718281828459045
 // LN2: 0.6931471805599453
