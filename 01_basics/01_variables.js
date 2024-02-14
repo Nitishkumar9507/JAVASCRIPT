@@ -14,4 +14,8 @@ console.table([accountId,email,password,accountCity]) // table is used to print 
 
 /* var was used earlier now it is suggested to use const and let 
 prefer not to use var because of issue in block scope and functional scope
+
+let -> can be reassigned 
+var -> can be reassigned 
+const -> can not reassign the value
 */
